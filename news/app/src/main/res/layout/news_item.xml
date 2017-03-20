@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rl_item_root"
+    android:background="@drawable/news_item_bg"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_news_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="assdfasddf"/>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:text="1212-1212"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_author"
+        android:text="bjh"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tv_news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.bjh.news.widget.SquareImageView
+            android:id="@+id/square_image"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.bjh.news.widget.SquareImageView
+            android:id="@+id/square_image_1"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.bjh.news.widget.SquareImageView
+            android:id="@+id/square_image_2"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

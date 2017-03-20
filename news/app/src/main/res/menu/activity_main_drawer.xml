@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_top"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/top" />
+        <item
+            android:id="@+id/nav_guonei"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/guonei" />
+        <item
+            android:id="@+id/nav_guoji"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/guoji" />
+        <item
+            android:id="@+id/nav_tiyu"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/tiyu" />
+
+        <item
+            android:id="@+id/nav_caijing"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/caijing" />
+        <item
+            android:id="@+id/nav_yule"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/yule" />
+        <item
+            android:id="@+id/nav_junshi"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/junshi" />
+        <item
+            android:id="@+id/nav_keji"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/keji" />
+        <item
+            android:id="@+id/nav_shishang"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/shishang" />
+        <item
+            android:id="@+id/nav_shehui"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/shehui" />
+    </group>
+
+</menu>
